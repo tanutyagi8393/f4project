@@ -1,0 +1,61 @@
+/* Overall layout */
+*{
+  margin:0;
+  padding:0;
+  background-color: black;
+  color:white;
+}
+.calculator {
+ padding:100px;
+ display: flex;
+ flex-direction: column;
+ gap:10px;
+}
+
+/* Input fields */
+ .inputs > input {
+ border:1px solid #ccc;
+ margin-top:10px;
+ padding:5px;
+}
+.inputs{
+  margin-bottom: 10px;
+}
+/* Error message */
+.error {
+  color: red;
+  margin: 20px 0px;
+}
+.ans{
+  margin: 20px 0px;
+}
+
+/* Result message */
+.result {
+  color: green;
+  margin: 20px 0px;
+}
+
+/* Buttons */
+.buttons{
+  display: flex;
+}
+ button {
+  /* display: inline-block; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:30px;
+  height:30px;
+  margin-right: 20px;
+  padding: 10px;
+  border: none;
+  background-color: #fff;
+  color: #000;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ddd;
+} 
